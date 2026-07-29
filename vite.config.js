@@ -3,8 +3,8 @@ import vue from "@vitejs/plugin-vue";
 import path from "path";
 
 export default defineConfig({
+  base: '/albaWebsite/', // Repository nomingiz bilan
   plugins: [vue()],
-  base: '/', 
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
