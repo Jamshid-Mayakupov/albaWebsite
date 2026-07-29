@@ -1,9 +1,9 @@
 import { defineConfig } from "vite";
-import vue from "@vitejs/plugin-vue";
+import vue from "@vitejs.plugin-vue";
 import path from "path";
 
 export default defineConfig({
-  base: '/albaWebsite/', // Repository nomingiz bilan
+  base: '/albaWebsite/', // Repo nomi bilan bir xil
   plugins: [vue()],
   resolve: {
     alias: {
